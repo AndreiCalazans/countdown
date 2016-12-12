@@ -1,0 +1,74 @@
+body {
+  margin:0px;
+  background: #A65D34;
+  color:white;
+}
+
+div {
+  text-align:center;
+
+}
+input {
+  width: 50%;
+  height: 30px;
+  font-size:20px;
+}
+p {
+  font-size: 30px;
+}
+button {
+  margin:7.5px;
+  background:#B47C5C;
+  border: 1px solid #B47C5C;
+  box-shadow: 2px 2px #984313;
+  width:20%;
+  height:30px;
+  font-size: 20px;
+}
+#nameOfEvent {
+  text-align:center;
+}
+
+table {
+  display:block;
+  position:relative;
+
+  top:50%;
+  text-align: center;
+  background:#B47C5C;
+  padding: 10px;
+  box-shadow: 5px 5px #984313;
+  width:100%;
+  border-radius: 1%;
+}
+td{
+  width:25vw;
+}
+tr:nth-child(1) , tr:nth-child(2){
+  font-size: 7.5vw;
+
+}
+tr:nth-child(3){
+  font-size:2.5vw;
+}
+@media screen and (min-width: 600px){
+  tr:nth-child(1) , tr:nth-child(2){
+  font-size: 50px;
+}
+table {
+  margin-top : 10px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  font-size:20px;
+}
+button  {
+  width:200px;
+  height:20px;
+  font-size: 15px;
+}
+p {
+  font-size: 25px;
+}
+}
